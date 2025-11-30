@@ -152,10 +152,6 @@ Upload the full project to GitHub including:
 - README.md  
 - Library_Report.pdf  
 
-Submit the GitHub link to Evaluators.
 
 ---
 
-# 🎉 Done!
-
-This project meets **all the requirements** of the internship assignment.
