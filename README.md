@@ -27,7 +27,7 @@ A full‑stack CRUD application built for the **Software Engineering Internship 
 
 # 🚀 Getting Started
 
-## 1️⃣ Backend Setup (LibraryAPI)
+## Backend Setup (LibraryAPI)
 
 ### Requirements
 - .NET SDK 8+
@@ -62,7 +62,7 @@ Open:
 
 ---
 
-## 2️⃣ Frontend Setup (React + TypeScript)
+## Frontend Setup (React + TypeScript)
 
 ### Requirements
 - Node.js 18+
@@ -85,73 +85,4 @@ Frontend runs at:
 
 ---
 
-# 🔗 API Endpoints
-
-| Method | Endpoint            | Description           |
-|--------|---------------------|-----------------------|
-| GET    | /api/Books          | Get all books         |
-| GET    | /api/Books/{id}     | Get book by ID        |
-| POST   | /api/Books          | Create new book       |
-| PUT    | /api/Books/{id}     | Update existing book  |
-| DELETE | /api/Books/{id}     | Delete a book         |
-
----
-
-# 🗄 SQLite Database
-
-Table: **Books**
-
-| Column       | Type      |
-|--------------|-----------|
-| Id           | INTEGER PRIMARY KEY AUTOINCREMENT |
-| Title        | TEXT      |
-| Author       | TEXT      |
-| Description  | TEXT      |
-
----
-
-# 🎨 Frontend Features
-
-- React + TypeScript  
-- React Router navigation  
-- Custom CSS for UI  
-- CRUD pages: List, Add, Edit  
-- API service (`api.ts`)  
-- Reusable components  
-
----
-
-# 🧪 How to Test
-
-1. Start backend (`dotnet run`)  
-2. Start frontend (`npm start`)  
-3. Add, edit, delete books  
-4. Verify database updates  
-5. Test API using Swagger  
-
----
-
-# 📝 Report
-
-See **Library_Report.pdf** for a full technical write‑up:
-- Architecture diagrams  
-- Backend + Frontend explanation  
-- Database schema  
-- API documentation  
-- Challenges  
-- Conclusion  
-
----
-
-# 📦 Submission
-
-Upload the full project to GitHub including:
-
-- LibraryAPI  
-- library-frontend  
-- README.md  
-- Library_Report.pdf  
-
-
----
 
